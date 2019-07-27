@@ -40,6 +40,9 @@ def hit?
   if choice == 'h'
     card_total += deal_card
   elseif choice == 's'
+    card_total
+  else 
+    
 end
 
 def invalid_command
