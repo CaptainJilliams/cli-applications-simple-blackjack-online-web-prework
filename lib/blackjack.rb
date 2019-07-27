@@ -33,7 +33,7 @@ sum_of_cards
 end
 
 def hit?
-  # code hit? here
+  puts "Please enter a valid command"
 end
 
 def invalid_command
