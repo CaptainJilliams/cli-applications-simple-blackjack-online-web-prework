@@ -32,6 +32,10 @@ display_card_total(sum_of_cards)
 sum_of_cards
 end
 
+def invalid_command
+  puts "Please enter a valid command"
+end
+
 def hit?(card_total)
   prompt_user #ask the user if they want to hit or stay
   user_input = get_user_input #set a variable to use for your if/else statement
@@ -44,9 +48,6 @@ def hit?(card_total)
   end
 end
 
-def invalid_command
-  puts "Please enter a valid command"
-end
 
 #####################################################
 # get every test to pass before coding runner below #
