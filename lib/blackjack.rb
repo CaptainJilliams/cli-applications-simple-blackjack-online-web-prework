@@ -23,7 +23,7 @@ def end_game(card_total)
 end
 
 def initial_round(sum_of_cards)
-  n1 = deal_card  
+  n1 = deal_card
   n2 = deal_card
 
   sum_of_cards = n1+n2
