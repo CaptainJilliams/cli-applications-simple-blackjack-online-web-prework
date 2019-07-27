@@ -33,6 +33,8 @@ sum_of_cards
 end
 
 def hit?
+  prompt_user
+
   
 end
 
