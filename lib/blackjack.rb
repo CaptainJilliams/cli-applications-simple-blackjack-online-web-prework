@@ -27,7 +27,7 @@ def initial_round(sum_of_cards)
   n2 = deal_card
 
   sum_of_cards = n1+n2
-  
+  display_card_total = sum_of_cards
   puts display_card_total
 end
 
