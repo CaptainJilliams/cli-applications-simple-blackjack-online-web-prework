@@ -41,7 +41,7 @@ def hit?
     card_total += deal_card
   elseif choice == 's'
     card_total
-  else 
+  else
     
 end
 
