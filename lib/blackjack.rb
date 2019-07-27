@@ -35,7 +35,7 @@ end
 def hit?
   prompt_user
 
-  
+  alpha_one = get_user_input
 end
 
 def invalid_command
