@@ -32,12 +32,6 @@ display_card_total(sum_of_cards)
 sum_of_cards
 end
 
-def invalid_command
-  puts "Please enter a valid command"
-  prompt_user
-  get_user_input
-end
-
 def hit?(card_total)
   prompt_user
   user_input = get_user_input
@@ -49,6 +43,12 @@ def hit?(card_total)
   else
     invalid_command
   end
+end
+
+def invalid_command
+  puts "Please enter a valid command"
+  prompt_user
+  get_user_input
 end
 
 
