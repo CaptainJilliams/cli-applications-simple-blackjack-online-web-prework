@@ -32,7 +32,7 @@ display_card_total(sum_of_cards)
 sum_of_cards
 end
 
-def hit?
+def hit?(card_total)
   prompt_user
 
   choice = get_user_input
