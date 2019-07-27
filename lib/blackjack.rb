@@ -42,7 +42,8 @@ def hit?
   elseif choice == 's'
     card_total
   else
-    
+    invalid_command
+  end 
 end
 
 def invalid_command
