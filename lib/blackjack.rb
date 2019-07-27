@@ -33,7 +33,8 @@ sum_of_cards
 end
 
 def hit?
-  
+  a_one = prompt_user
+  b_one = get_user_input
 end
 
 def invalid_command
